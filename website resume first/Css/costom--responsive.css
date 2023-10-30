@@ -1,0 +1,680 @@
+@media(max-width:1400px) 
+{
+     .Content--Porflie
+     {
+          width: 100%;
+          height: auto;
+          background-color: var(--color-surface-1);
+          border: 1px solid var(--color-border);
+          border-radius: var(--radius-20);
+          -webkit-box-shadow: var(--box-shadow-24);
+          box-shadow: var(--box-shadow-24);
+          padding: 1.875rem;
+          position: relative;
+          margin-top: 1.5rem;
+          position: fixed;
+          width: 310px;
+          left: 75px;
+     }
+}
+
+
+
+
+
+
+
+
+@media(max-width:1300px) 
+{
+     .Content--Porflie
+     {
+          width: 100%;
+          height: auto;
+          background-color: var(--color-surface-1);
+          border: 1px solid var(--color-border);
+          border-radius: var(--radius-20);
+          -webkit-box-shadow: var(--box-shadow-24);
+          box-shadow: var(--box-shadow-24);
+          padding: 1.875rem;
+          position: relative;
+          margin-top: 1.5rem;
+          position: fixed;
+          width: 285px;
+          left: 25px;
+     }
+}
+
+
+
+
+
+
+
+
+@media(max-width:1200px) 
+{
+     .Content--Porflie
+     {
+          width: 100%;
+          height: auto;
+          background-color: var(--color-surface-1);
+          border: 1px solid var(--color-border);
+          border-radius: var(--radius-20);
+          -webkit-box-shadow: var(--box-shadow-24);
+          box-shadow: var(--box-shadow-24);
+          padding: 1.875rem;
+          position: relative;
+          margin-top: 1.5rem;
+          left: 0;
+     }
+
+     .Box--Data--Porfile 
+     {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: inherit;
+     }
+
+     .Box--Data--Porflie--Photo
+     {
+          flex-shrink: 0;
+          margin: 0 1.5rem 0 0;
+          height: 7.5rem;
+          width: 7.5rem;
+     }
+
+     .Box--Data--Porflie--Line
+     {
+          background: var(--color-border);
+          margin: 1rem 0;
+          height: 1px;
+          width: 100%;
+     }
+
+     .Box--Data--Porfile--Info--list 
+     {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+     }
+
+     .Box--Data--Porfile--Info--list li 
+     {
+          color: var(--color-heading);
+          font-size: 0.875rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          margin-bottom: 0.9375rem;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+     }
+
+     .Box--Menu--Pc
+     {
+          width: 0%;
+          height: auto;
+          overflow: hidden;
+          float: left;
+          transition: 0.5s all;
+          position: absolute;
+          left: 0%;
+          top: 60px;
+          padding: 0px;
+     }
+
+     .Box--Menu--Pc--Add
+     {
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          float: left;
+          transition: 0.5s all;
+          position: absolute;
+          left: 0%;
+          top: 60px;
+          padding: 0;
+     }
+
+     .Box--Icon--Menu
+     {
+          font-size: 1.125rem;
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: var(--radius-12);
+          -webkit-box-shadow: var(--box-shadow-30);
+          box-shadow: var(--box-shadow-30);
+          line-height: 1;
+          margin-right: 1rem;
+          height: 50px;
+          width: 50px;
+          color: var(--color-accent);
+          position: relative;
+          overflow: hidden;
+          float: right;
+          border: 1px solid var(--color-border);
+          margin-top: 10px;
+     }
+
+     .Navbar--First ul 
+     {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+          display: flex;
+          align-items: center;
+          list-style-type: none;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+     .Navbar--First ul li 
+     {
+          margin: 0.2rem 1rem;
+     }
+
+     .Backgrond--Header 
+     {
+          background: var(--color-surface-2); 
+          border-radius: 0 var(--radius-20) 0 var(--radius-20); 
+          display: -webkit-box; 
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          padding-right: 0;
+          padding-left: 0;
+          position: absolute;
+          top: 60px;
+          right: 0;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border: none;
+          z-index: 1;
+     }
+
+     .Section--Title--First 
+     {
+          width: 100%;
+          height: auto;
+          text-align: left;
+          margin-top: -20px;
+     }
+}
+
+
+
+
+
+
+@media(max-width:992px) 
+{
+     .Box--Data--Porfile 
+     {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: inherit;
+     }
+
+     .Box--Data--Porflie--Photo
+     {
+          flex-shrink: 0;
+          margin: 0 1.5rem 0 0;
+          height: 7.5rem;
+          width: 7.5rem;
+     }
+
+     .Box--Data--Porflie--Line
+     {
+          background: var(--color-border);
+          margin: 1rem 0;
+          height: 1px;
+          width: 100%;
+     }
+
+     .Box--Data--Porfile--Info--list 
+     {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+     }
+
+     .Box--Data--Porfile--Info--list li 
+     {
+          color: var(--color-heading);
+          font-size: 0.875rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          margin-bottom: 0.9375rem;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+     }
+
+     .Box--Menu--Pc
+     {
+          width: 0%;
+          height: auto;
+          overflow: hidden;
+          float: left;
+          transition: 0.5s all;
+          position: absolute;
+          left: 0%;
+          top: 60px;
+          padding: 0px;
+     }
+
+     .Box--Menu--Pc--Add
+     {
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          float: left;
+          transition: 0.5s all;
+          position: absolute;
+          left: 0%;
+          top: 60px;
+          padding: 0;
+     }
+
+     .Box--Icon--Menu
+     {
+          font-size: 1.125rem;
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: var(--radius-12);
+          -webkit-box-shadow: var(--box-shadow-30);
+          box-shadow: var(--box-shadow-30);
+          line-height: 1;
+          margin-right: 1rem;
+          height: 50px;
+          width: 50px;
+          color: var(--color-accent);
+          position: relative;
+          overflow: hidden;
+          float: right;
+          border: 1px solid var(--color-border);
+          margin-top: 10px;
+     }
+
+     .Navbar--First ul 
+     {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+          display: flex;
+          align-items: center;
+          list-style-type: none;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+     .Navbar--First ul li 
+     {
+          margin: 0.2rem 1rem;
+     }
+
+     .Backgrond--Header 
+     {
+          background: var(--color-surface-2); 
+          border-radius: 0 var(--radius-20) 0 var(--radius-20); 
+          display: -webkit-box; 
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          padding-right: 0;
+          padding-left: 0;
+          position: absolute;
+          top: 60px;
+          right: 0;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border: none;
+          z-index: 1;
+     }
+
+     .Section--Title--First 
+     {
+          width: 100%;
+          height: auto;
+          text-align: left;
+          margin-top: -20px;
+     }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) 
+{
+
+     .Box--Data--Porflie--Line
+     {
+          background: var(--color-border);
+          margin: 1rem 0;
+          height: 1px;
+          width: 100%;
+     }
+
+     .Box--Data--Porfile--Info--list 
+     {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+     }
+
+     .Box--Data--Porfile--Info--list li 
+     {
+          color: var(--color-heading);
+          font-size: 0.875rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          margin-bottom: 0.9375rem;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+     }
+
+     .Box--Menu--Pc
+     {
+          width: 0%;
+          height: auto;
+          overflow: hidden;
+          float: left;
+          transition: 0.5s all;
+          position: absolute;
+          left: 0%;
+          top: 60px;
+          padding: 0px;
+     }
+
+     .Box--Menu--Pc--Add
+     {
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          float: left;
+          transition: 0.5s all;
+          position: absolute;
+          left: 0%;
+          top: 60px;
+          padding: 0;
+     }
+
+     .Box--Icon--Menu
+     {
+          font-size: 1.125rem;
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: var(--radius-12);
+          -webkit-box-shadow: var(--box-shadow-30);
+          box-shadow: var(--box-shadow-30);
+          line-height: 1;
+          margin-right: 1rem;
+          height: 50px;
+          width: 50px;
+          color: var(--color-accent);
+          position: relative;
+          overflow: hidden;
+          float: right;
+          border: 1px solid var(--color-border);
+          margin-top: 10px;
+     }
+
+     .Navbar--First ul 
+     {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+          display: flex;
+          align-items: center;
+          list-style-type: none;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+     .Navbar--First ul li 
+     {
+          margin: 0.2rem 1rem;
+     }
+
+     .Backgrond--Header 
+     {
+          background: var(--color-surface-2); 
+          border-radius: 0 var(--radius-20) 0 var(--radius-20); 
+          display: -webkit-box; 
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          padding-right: 0;
+          padding-left: 0;
+          position: absolute;
+          top: 60px;
+          right: 0;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border: none;
+          z-index: 1;
+     }
+
+     .Section--Title--First 
+     {
+          width: 100%;
+          height: auto;
+          text-align: left;
+          margin-top: -20px;
+     }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:568px) 
+{
+
+     .Box--Data--Porflie--Line
+     {
+          background: var(--color-border);
+          margin: 1rem 0;
+          height: 1px;
+          width: 100%;
+     }
+
+     .Box--Data--Porfile--Info--list 
+     {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+     }
+
+     .Box--Data--Porfile--Info--list li 
+     {
+          color: var(--color-heading);
+          font-size: 0.875rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          margin-bottom: 0.9375rem;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+     }
+
+     .Box--Menu--Pc
+     {
+          width: 0%;
+          height: auto;
+          overflow: hidden;
+          float: left;
+          transition: 0.5s all;
+          position: absolute;
+          left: 0%;
+          top: 60px;
+          padding: 0px;
+     }
+
+     .Box--Menu--Pc--Add
+     {
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          float: left;
+          transition: 0.5s all;
+          position: absolute;
+          left: 0%;
+          top: 60px;
+          padding: 0;
+     }
+
+     .Box--Icon--Menu
+     {
+          font-size: 1.125rem;
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: var(--radius-12);
+          -webkit-box-shadow: var(--box-shadow-30);
+          box-shadow: var(--box-shadow-30);
+          line-height: 1;
+          margin-right: 1rem;
+          height: 50px;
+          width: 50px;
+          color: var(--color-accent);
+          position: relative;
+          overflow: hidden;
+          float: right;
+          border: 1px solid var(--color-border);
+          margin-top: 10px;
+     }
+
+     .Navbar--First ul 
+     {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+          display: flex;
+          align-items: center;
+          list-style-type: none;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+     .Navbar--First ul li 
+     {
+          margin: 0.2rem 1rem;
+     }
+
+     .Backgrond--Header 
+     {
+          background: var(--color-surface-2); 
+          border-radius: 0 var(--radius-20) 0 var(--radius-20); 
+          display: -webkit-box; 
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          padding-right: 0;
+          padding-left: 0;
+          position: absolute;
+          top: 60px;
+          right: 0;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border: none;
+          z-index: 1;
+     }
+
+     .Section--Title--First 
+     {
+          width: 100%;
+          height: auto;
+          text-align: left;
+          margin-top: -20px;
+     }
+
+}
